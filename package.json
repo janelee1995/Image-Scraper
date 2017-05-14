@@ -1,17 +1,22 @@
 {
-  "name": "janelee1995",
-  "version": "1.0.27",
-  "description": "test package",
-  "main": "scraper.js",
+  "name": "image-scraper-node",
+  "version": "1.0.14",
+  "description": "Image scraper module which scrapes images with a certain hashtag from Pinterest,Flickr,Unsplash an Twitter. Functionality also available to compress the images and set limit on number of images returned",
+  "main": "final_export_file/scraper.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Jane Lee",
   "license": "ISC",
   "dependencies": {
     "cheerio": "^0.22.0",
+    "child_process": "^1.0.2",
     "fs": "0.0.1-security",
-    "request": "^2.81.0"
+    "http": "0.0.0",
+    "node-datetime": "^1.0.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
+    "tar.gz": "^1.0.5"
   },
   "devDependencies": {}
 }

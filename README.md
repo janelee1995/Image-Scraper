@@ -1,1 +1,1 @@
-# scrape
+# Node.js Image Scraper
